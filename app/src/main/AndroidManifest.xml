@@ -12,8 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EntregaFinal"
         tools:targetApi="31">
+
         <activity
-            android:name=".MainActivity"
+            android:name=".animationActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,8 +23,25 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".AddEditNoteActivity" />
-        <activity android:name=".NoteDetailsActivity" />
+        <activity
+            android:name=".loginActivity"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".registerActivity"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".bodyActivity"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+        </activity>
     </application>
 
 </manifest>
