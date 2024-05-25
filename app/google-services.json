@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1032497317474",
+    "project_id": "chatlink-15649",
+    "storage_bucket": "chatlink-15649.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032497317474:android:366f9ec7513c0cc1f0333b",
+        "android_client_info": {
+          "package_name": "com.vallejo.entregafinal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA59G65WAF5l6tt09f87JkHL9MUZebv7h4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
