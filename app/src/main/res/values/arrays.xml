@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string-array name="edad_options">
-        <item>13 - 17 años</item>
-        <item>+18 años</item>
-    </string-array>
-</resources>

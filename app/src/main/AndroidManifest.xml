@@ -34,7 +34,7 @@
         </activity>
 
         <activity
-            android:name=".bodyActivity"
+            android:name=".chatActivity"
             android:exported="true">
         </activity>
 
