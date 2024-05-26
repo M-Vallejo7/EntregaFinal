@@ -1,4 +1,4 @@
-package com.vallejo.entregafinal;
+package com.vallejo.entregafinal.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
