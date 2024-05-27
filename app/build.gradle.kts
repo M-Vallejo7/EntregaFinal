@@ -41,7 +41,7 @@ dependencies {
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 
-    // Mis Implementaciones (8)
+    // Mis Implementaciones (10)
     // Scalable Size Unit (support for different screen sizes)
     implementation ("com.intuit.sdp:sdp-android:1.0.6")
     implementation ("com.intuit.ssp:ssp-android:1.0.6")
@@ -55,4 +55,7 @@ dependencies {
     implementation("com.google.firebase:firebase-firestore:25.0.0")
     // MultiDex (para generar más de un DEX en caso de que lo necesite la app)
     implementation("androidx.multidex:multidex:2.0.1")
+    // Retrofit
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-scalars:2.9.0")
 }
