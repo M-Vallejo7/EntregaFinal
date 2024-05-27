@@ -7,7 +7,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.media.MediaCodec;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
@@ -17,12 +16,10 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.google.firebase.firestore.FirebaseFirestore;
-import com.vallejo.entregafinal.R;
 import com.vallejo.entregafinal.databinding.ActivitySignUpBinding;
 import com.vallejo.entregafinal.utilities.Constants;
 import com.vallejo.entregafinal.utilities.PreferenceManager;
 
-import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.FileNotFoundException;
 import java.io.InputStream;

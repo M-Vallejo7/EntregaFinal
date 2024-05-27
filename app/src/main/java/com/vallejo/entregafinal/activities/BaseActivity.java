@@ -1,12 +1,12 @@
 package com.vallejo.entregafinal.activities;
 
 import android.os.Bundle;
-
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FirebaseFirestore;
+
 import com.vallejo.entregafinal.utilities.Constants;
 import com.vallejo.entregafinal.utilities.PreferenceManager;
 

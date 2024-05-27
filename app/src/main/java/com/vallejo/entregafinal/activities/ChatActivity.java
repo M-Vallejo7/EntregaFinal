@@ -1,8 +1,6 @@
 package com.vallejo.entregafinal.activities;
 
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.firebase.firestore.DocumentChange;
 import com.google.firebase.firestore.DocumentReference;
@@ -21,7 +19,6 @@ import android.util.Base64;
 import android.view.View;
 import android.widget.Toast;
 
-import com.vallejo.entregafinal.R;
 import com.vallejo.entregafinal.databinding.ActivityChatBinding;
 import com.vallejo.entregafinal.netwotk.ApiClient;
 import com.vallejo.entregafinal.netwotk.ApiService;

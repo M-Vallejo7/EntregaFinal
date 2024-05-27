@@ -5,15 +5,12 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import com.google.firebase.firestore.DocumentChange;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.EventListener;
 import com.google.firebase.firestore.FieldValue;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.QuerySnapshot;
-import com.google.firebase.firestore.remote.WatchChange;
 import com.google.firebase.messaging.FirebaseMessaging;
 import com.vallejo.entregafinal.adapters.RecentConversationsAdapter;
 import com.vallejo.entregafinal.databinding.ActivityMainBinding;

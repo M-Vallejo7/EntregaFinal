@@ -4,8 +4,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-
-import com.vallejo.entregafinal.activities.MainActivity;
 import com.vallejo.entregafinal.activities.SignInActivity;
 
 public class animationActivity extends AppCompatActivity{
@@ -20,7 +18,7 @@ public class animationActivity extends AppCompatActivity{
                 startActivity(new Intent(animationActivity.this, SignInActivity.class));
                 finish();
             }
-        }, 2000);
+        }, 3000);
 
     }
 }

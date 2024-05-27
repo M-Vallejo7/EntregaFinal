@@ -1,8 +1,5 @@
 package com.vallejo.entregafinal.activities;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.app.usage.ConfigurationStats;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;

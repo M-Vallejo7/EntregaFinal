@@ -10,12 +10,9 @@ import android.widget.Toast;
 
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
-import com.vallejo.entregafinal.R;
 import com.vallejo.entregafinal.databinding.ActivitySignInBinding;
 import com.vallejo.entregafinal.utilities.Constants;
 import com.vallejo.entregafinal.utilities.PreferenceManager;
-
-import java.util.HashMap;
 
 public class SignInActivity extends AppCompatActivity {
 

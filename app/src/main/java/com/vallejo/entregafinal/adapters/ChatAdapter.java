@@ -9,7 +9,6 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.vallejo.entregafinal.databinding.ItemContainerReceivedMessageBinding;
 import com.vallejo.entregafinal.databinding.ItemContainerSentMessageBinding;
-import com.vallejo.entregafinal.databinding.ItemContainerUserBinding;
 import com.vallejo.entregafinal.models.ChatMessage;
 
 import java.util.List;
