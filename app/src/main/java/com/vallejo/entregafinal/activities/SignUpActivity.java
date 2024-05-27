@@ -117,7 +117,7 @@ public class SignUpActivity extends AppCompatActivity {
 
     private Boolean isValidSignUpDetails(){
         if (encodedImage == null){
-            showToast("Select pofile image");
+            showToast("Select profile image");
             return false;
         } else if (binding.inputName.getText().toString().trim().isEmpty()){
             showToast("Enter name");
@@ -134,7 +134,10 @@ public class SignUpActivity extends AppCompatActivity {
         } else if (binding.inputConfirmPassword.getText().toString().trim().isEmpty()) {
             showToast("Confirm your password");
             return false;
-        } else if (binding.inputPassword.getText().toString().trim().isEmpty()) {
+        } //else if (binding.inputPassword.getText().toString().trim().isEmpty()) {
+            //showToast("Password and confirm password must be same");
+            //return false;
+        else if (!binding.inputPassword.getText().toString().equals(binding.inputConfirmPassword.getText().toString())) {
             showToast("Password and confirm password must be same");
             return false;
         } else{

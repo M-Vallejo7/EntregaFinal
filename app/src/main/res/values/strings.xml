@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">EntregaFinal</string>
+    <string name="app_name">ChatLink</string>
     <string name="logout_icon">icon_logout</string>
     <string name="profile_icon">icon_profile</string>
     <string name="welcome_back">ChatLink</string>
